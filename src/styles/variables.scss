@@ -1,0 +1,10 @@
+/* Define all variables with CSS variables, not Sass variables to use with Tailwind */
+
+:root {
+  --color-disabled: #000000;
+  --color-disabled-border: #000000;
+  --color-error: #ff6d6d;
+  --color-error-bg: #ffffff;
+  --color-success: #000000;
+  --color-success-bg: #000000;
+}

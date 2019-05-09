@@ -1,0 +1,43 @@
+@charset 'UTF-8';
+
+/**
+ * Jake's Starter Theme | Built with Slate
+ */
+
+// Settings
+@import './variables';
+
+// Tools
+@import './tools/mixins';
+@import './tools/functions';
+
+// Core
+@import './core/forms';
+@import './core/helpers';
+@import './core/layout';
+@import './core/media';
+@import './core/rte';
+@import './core/typography';
+
+// Components
+@import './components/buttons';
+@import './components/hero-banner';
+@import './components/icons';
+@import './components/placeholders';
+@import './components/responsive-images';
+
+// Sections
+@import './sections/blog-posts';
+@import './sections/collection-list';
+@import './sections/featured-collection';
+@import './sections/image-with-text';
+
+// Templates
+@import './templates/gift_card';
+@import './templates/product';
+
+// Tailwind
+@import './utilities/tailwind';
+
+// Custom styles
+@import './custom';
